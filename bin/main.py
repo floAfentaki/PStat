@@ -70,7 +70,7 @@ def main():
 #--------------------------           |         By 3 Months           |       ------------------------------------------
 #=======================================================================================================================
             temp=df.iloc[0,j]-temp
-            month3.append(temp.tolist())                                        #    month3.append(temp)     used to be
+            month3.append(temp.tolist())          # Changed from month3.append(temp). BLOB instead of integer.[HEX-repr]
             temp=df.iloc[0,j]
 
 
