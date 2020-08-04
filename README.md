@@ -5,6 +5,8 @@ PStat is a ***Python*** written project which :
 - Make some **Graphs**
 - Save the data in a **Database**
 -  **Export**  data in ***CSV*** format
+
+![](/images/Visio Drawings/Connections.png)
   
 This project was created within the frameworks of the university's course  **Principles of Programming Languages and Compilers** *@CEID, UoPatras, Greece*.
 
