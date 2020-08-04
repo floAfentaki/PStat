@@ -132,8 +132,8 @@ def main():
 #==============================================         |PLOTS|            =============================================
 #=======================================================================================================================
     
-#        plots.plot_top(top,book,b)                                 #ektipwsi gia ka8e etos =>   parapono   &    allages
-    top=pd.concat(country,keys=['2011','2012','2013','2014','2015'])                      #εναια εκτύπωση
+#        plots.plot_top(top,book,b)                                 #print different graph for ever year
+    top=pd.concat(country,keys=['2011','2012','2013','2014','2015'])                      #solid printint
     plots.plot_top(top,book,b)
     plots.plot_rail(transport)
     plots.plot_year(tt,book)    
