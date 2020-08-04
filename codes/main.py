@@ -8,14 +8,13 @@ import csvFiles
 
 def main():
 
-#---|      Bima1 : Katevazw arxeia   |--------
+#---|      Step1 : Download the Files  |--------
 #---------------------------------------------
 
-#    hello.download_files()
+    hello.download_files()
 
 
-#--|  Bima2 :  Dimiourgw Basi
-#           kai diktes pros aytin   |-------
+#--|  Step2 :  Create and Initialise my Database   |-------
 #---------------------------------------------
 
     conn=db.create_connection()
@@ -26,8 +25,9 @@ def main():
 
 
 
-#----|  Bima3 : Arxikopoiw listes ==> tha kratane
-#           stoixia gia tin 5etia => plots  |-----
+#----|  Step3 : Initialise my tracking lists ==> 
+#       these lists will keep the necessary records  =>
+#       which plots will be drawn by using these lists  |-----
 #-------------------------------------------------
 
     year=[]
@@ -35,8 +35,7 @@ def main():
     transport=[]
     country=[]
 
-#----|  Bima4 : Xekiname tin epexergasia
-#                       gia ka8e excel files |-----
+#----|  Step4 : Proccess excel files one by one |-----
 #-------------------------------------------------
 
     book=['2011','2012','2013','2014','2015']                                       #lista gia tin anatrexei twn excell
@@ -58,7 +57,7 @@ def main():
             df=df.sort_values(by=['TOTAL'],ascending=False)
 
 
-            i,j =df.shape       #diastasis
+            i,j =df.shape       #diamensions
             i,j=i-1,j-1
 
 
