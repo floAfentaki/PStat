@@ -6,7 +6,7 @@ PStat is a ***Python*** written project which :
 - Save the data in a **Database**
 -  **Export**  data in ***CSV*** format
 
-![](images/Visio Drawning/Connection.png)
+![b](images/Visio Drawning/Connection.png)
   
 This project was created within the frameworks of the university's course  **Principles of Programming Languages and Compilers** *@CEID, UoPatras, Greece*.
 
